@@ -1,8 +1,15 @@
 # 100daysofcode
 log of 100daysofcode
+
+
+template
+
 ##**Day X: /19** 
-**Today's Progress:** set up log, set up document
+
+**Today's Progress:** 
+
 **Thoughts:** 
+
 **Link to work:** 
 
 
