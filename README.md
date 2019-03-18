@@ -28,9 +28,9 @@
 
 
 
-**Thoughts:** 
+**Thoughts:** Wiederholung des Moduls dauerte am Ende eine Stunde. 
 
-**Link to work:** 
+**Link to work:** https://code.sololearn.com/coLyd90VY8g6/#rb
 
 
 ## Day 2: 19/03/19
