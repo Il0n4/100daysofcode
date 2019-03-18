@@ -17,7 +17,16 @@
 ## Day 1: 18/03/19
 
 
-**Today's Progress:** set up log, set up document
+**Today's Progress:** set up log, set up document, re-activate Account for tutorials RUBY
+* commenting #, =begin =end, \ 
+* puts, print
+* principle of variables
+* math
+* parallel assignment
+* Zeilenumbruch \n
+
+
+
 
 **Thoughts:** 
 
