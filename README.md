@@ -1,8 +1,8 @@
-# 100daysofcode
-log of 100daysofcode
+# log of 100daysofcode
 
 
-template
+
+-template-
 
 ##**Day X: /19** 
 
@@ -14,7 +14,7 @@ template
 
 
 ### 100 Days Of Code - Log
-##**Day 0: 18/03/19** 
+##Day 0: 18/03/19
 
 
 **Today's Progress:** set up log, set up document
