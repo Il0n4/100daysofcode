@@ -4,7 +4,7 @@
 
 -template-
 
-##**Day X: /19** 
+## Day X: /19
 
 **Today's Progress:** 
 
@@ -13,8 +13,8 @@
 **Link to work:** 
 
 
-### 100 Days Of Code - Log
-##Day 0: 18/03/19
+
+## Day 1: 18/03/19
 
 
 **Today's Progress:** set up log, set up document
@@ -23,4 +23,21 @@
 
 **Link to work:** 
 
+
+## Day 2: 19/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:**
+
+
+## Day 3: 20/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
 
