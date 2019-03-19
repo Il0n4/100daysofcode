@@ -19,9 +19,9 @@
 
 **Today's Progress:** set up log, set up document, re-activate Account for tutorials RUBY
 * commenting #, =begin =end, \ 
-* puts, print
+* puts - die nächste Ausgabe erfolgt in neuer Zeile, print
 * principle of variables
-* math
+* math - Hierachie: Punkt vor Strich
 * parallel assignment
 * Zeilenumbruch \n
 
@@ -44,6 +44,15 @@
   but
   puts 3.eql?(3.0) # false
 * größer, kleiner Prinzip funktioniert auch mit strings - Vergleich basiert auf alphabetischer Reihenfolge
+* if statement: The end keyword is required to indicate the end of the if; es können mehrere Konditionen miteinander verknüpft werden. 
+  if a<7 
+      puts "Yes" 
+  end 
+  Conditions können ineinander verschachtelt sein - if im if wird erst dann beachtet, wenn die erste Ebene erfüllt wird. Jedes      if benötigt in eigenes end.
+  else ist Teil des if Statements und somit eingebettet und braucht daher kein eigenes end
+* elsif - wenn nicht dann
+* unless - Gegenteil von if, wird nur ausgeführt, wenn Statement falsch ist.
+This code before the if executes only if the condition evaluates to true. The code before the unless executes only if the condition is false.
 
 
 **Thoughts:** 
