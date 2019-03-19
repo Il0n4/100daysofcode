@@ -50,9 +50,13 @@
   end 
   Conditions können ineinander verschachtelt sein - if im if wird erst dann beachtet, wenn die erste Ebene erfüllt wird. Jedes      if benötigt in eigenes end.
   else ist Teil des if Statements und somit eingebettet und braucht daher kein eigenes end
-* **elsif - wenn nicht dann**
+* **elsif - nur wenn diese Aussage nicht stimmt, dann**
 * **unless** - Gegenteil von if, wird nur ausgeführt, wenn Statement falsch ist.
 This code before the if executes only if the condition evaluates to true. The code before the unless executes only if the condition is false.
+* **logical operators** - um mehr als ein Kriterium zu testen.  **and (&&), or (||), not (!)** (können theoretisch auch ausgeschrieben verwendet werden) 
+**or (||)** - beide Aussagen oder mindestens eine Aussage muss wahr sein, damit das Statement als true ausgewertet wird 
+You can chain together multiple conditions with the logical operators to check for multiple conditions. Parentheses can be used to group together separate conditions for clarity and to control the order of operations. For example:
+(a>b && b < 100) || (a<b && b > 100)
 
 
 **Thoughts:** 
