@@ -57,6 +57,10 @@ This code before the if executes only if the condition evaluates to true. The co
 **or (||)** - beide Aussagen oder mindestens eine Aussage muss wahr sein, damit das Statement als true ausgewertet wird 
 You can chain together multiple conditions with the logical operators to check for multiple conditions. Parentheses can be used to group together separate conditions for clarity and to control the order of operations. For example:
 (a>b && b < 100) || (a<b && b > 100)
+* **case statement** kombiniert mehrere if/else/ifelse, verwendet **when**, parallel testing - zwischen den Werten ein Beistrich
+* Case statements allow us to more easily control program flow. If statements should always be used to determine if a conditional is true, and case statements are for when you need to make different decisions based on a value.
+
+
 
 
 **Thoughts:** 
