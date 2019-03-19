@@ -59,7 +59,9 @@ You can chain together multiple conditions with the logical operators to check f
 (a>b && b < 100) || (a<b && b > 100)
 * **case statement** kombiniert mehrere if/else/ifelse, verwendet **when**, parallel testing - zwischen den Werten ein Beistrich
 * Case statements allow us to more easily control program flow. If statements should always be used to determine if a conditional is true, and case statements are for when you need to make different decisions based on a value.
-
+* **loops** are used to execute the same block of code a specified number of times.
+The **while** loop executes a block of code while its **condition is true**.
+The **until** loop is the opposite of a while loop: it will run while its condition is **false**.
 
 
 
