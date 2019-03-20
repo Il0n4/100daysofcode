@@ -2,16 +2,6 @@
 
 
 
--template-
-
-## Day X: /19
-
-**Today's Progress:** 
-
-**Thoughts:** 
-
-**Link to work:** 
-
 
 
 ## Day 1: 18/03/19
@@ -77,4 +67,45 @@ The **until** loop is the opposite of a while loop: it will run while its condit
 **Thoughts:** 
 
 **Link to work:** 
+
+
+## Day 4: 21/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 5: 22/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 6: 23/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+
+-template-
+
+## Day X: /19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
 
