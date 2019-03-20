@@ -65,9 +65,9 @@ The **until** loop is the opposite of a while loop: it will run while its condit
 
 
 
-**Thoughts:** 
+**Thoughts:** Die Funtkionen waren einfacher als gedacht. Die Syntax ist noch immer gut klar und übersichtlich <3. unless und elsif sind so Dinge wo ich aufpassen muss, mir nicht falsche Eselsbrücken zu merken.
 
-**Link to work:**
+**Link to work:** https://code.sololearn.com/coLyd90VY8g6/#rb
 
 
 ## Day 3: 20/03/19
