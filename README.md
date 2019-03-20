@@ -4,7 +4,7 @@
 
 
 
-## Day 1: 18/03/19
+## Day 1: 18/03/19 - Basic Concepts
 
 
 **Today's Progress:** set up log, set up document, re-activate Account for tutorials RUBY
@@ -23,9 +23,10 @@
 **Link to work:** https://code.sololearn.com/coLyd90VY8g6/#rb
 
 
-## Day 2: 19/03/19
+## Day 2: 19/03/19 - Control Structures
 
 **Today's Progress:** 
+### Control Strucures
 * **boolean values** - in Ruby nur true oder false (2 Möglichkeiten) Only true and false are Booleans. nil is not a Boolean. 0 is not a Boolean. The string "Hello" is not a Boolean. However, in a context where a Boolean is expected, Ruby evaluates them as Boolean (truthy and falsey).
 * Vergleich zweier Variablen mit **==, ungleich  !=**
   There is also the **.eql? method**, which results in true only if both arguments have the same type and equal values.
@@ -60,9 +61,33 @@ The **until** loop is the opposite of a while loop: it will run while its condit
 **Link to work:** https://code.sololearn.com/coLyd90VY8g6/#rb
 
 
-## Day 3: 20/03/19
+## Day 3: 20/03/19 - Control Structures und Collections
 
 **Today's Progress:** 
+### Control Structures 
+* **Ranges** sind Sequenzen von Zahlen. 
+**to_a** method is used to convert a range to an array. 
+c = ("a".."d").to_a
+puts c # [a, b, c, d]
+''..'' and ''...'' sind die Kommandos. **..** inkludiert alle Werte, **...** schließt den angeführten Maximalwert aus. - funktioniert nicht rückwärts
+* **for Loops** füllen eine leere Variable einzeln mit einer Sequenz von Werten
+for i in (1..10)
+  puts i
+end
+The for loop is a useful statement when you need to loop over a specific set of values, for example, a range.
+The for loop consists of an empty variable and a range. At each iteration of the loop, the empty variable will be assigned the corresponding element of the range.
+**The for loop executes a block of code once for each element in the range.**
+* **break** statement can be used to stop a loop. 
+for i in 1..5
+  break if i > 3
+  puts i
+end
+* **next** kann mit **for Loop** kombiniert werden und lässt einen Wert überspringen. **redo** lässt eine Iteration des Loops wiederholen, **retry** lässt Loop nochmals von Anfang starten.
+* **loop do** It allows code to execute until a break condition is achieved.If we do not include a break condition, the loop will run forever.
+
+### Collections
+* 
+
 
 **Thoughts:** 
 
