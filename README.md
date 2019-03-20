@@ -86,13 +86,23 @@ end
 * **loop do** It allows code to execute until a break condition is achieved.If we do not include a break condition, the loop will run forever.
 
 ### Collections
-* 
-
+* **arrays** ist eine Liste nummerierter Items. items = ["Apple", "Orange", "Banana"] - Das array heißt **items** und beinhaltet 3 String. puts items [0] #gibt Apple aus. items Werte können manuell überschrieben werden. A negative index is assumed relative to the end of the array. For example, an index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.
+Arrays können **alle Formen von Elementen** enthalten.
+* zum array hinzufügen: mit **<<** wird ein Element an die letzte Stelle hinzugefügt, **push** fügt Element am Ende des arrays hinzu **arr.push(8)**, **insert** fügt ein Element an einer beliebigen Stelle ein - **arr.insert(2, 8)** #an zweiter Stelle das Element "8"
+* Entfernen von Werten mit **pop** - entfernt das letzte Element der Reihe
+**arr = [1, 2, 3]
+arr.pop**
+print arr # [1, 2]
+**delete_at** ermöglicht es eine spezifische Position auszuwählen die entfernt wird - 
+**arr = [2, 4, 6, 8]
+arr.delete_at(2)**
+print arr # [2, 4, 8]
 
 **Thoughts:** 
+Arrays und Logiken machen Spaß. Tolle Gedankenpuzzles. Spannend wird dann der Weg, weg von den isolierten konkreten Rätsellösung hin zur Anwendung.
 
 **Link to work:** 
-
+https://code.sololearn.com/coLyd90VY8g6/#rb
 
 ## Day 4: 21/03/19
 
