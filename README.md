@@ -1,4 +1,4 @@
-# log of 100daysofcode
+# log of 100DaysOfCode_Ruby
 
 
 
