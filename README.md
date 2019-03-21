@@ -133,7 +133,23 @@ print arr.reverse!</br>
 **array.include?(obj)** returns true if obj is present in array, false otherwise.</br>
 **array.min** returns the element with the minimum value.</br>
 **array.max** returns the element with the maximum value.</br>
-* **hashes**
+* **hashes** A hash is created with comma separated keys and values inside curly brackets: </br>
+ages = { "David" => 28, "Amy"=> 19, "Rob" => 42 } </br>
+puts ages["Amy"] </br>
+Compared with arrays, hashes have one significant advantage: they can use any object as an index, even an array. For example: { [1,"jan"] => "January" } </br>
+es können auch Symbole für das Abrufen von Hashes verwendet werden a = :id - spart for allem Speicher, weil es nur einmal abgerufen wird.</br>
+**hash.delete(key**) removes the key-value pair from hash by key. </br>
+**hash.key(value)** returns the key for the given value in hash, nil if no matching value is found. </br>
+**hash.invert** creates a new hash, reversing keys and values from hash; that is, in the new hash, the keys from hash become values and values become keys. </br>
+**hash.keys** returns a new array with keys from hash. </br>
+**hash.values** returns a new array containing all the values of hash. </br>
+**hash.length** returns the length of hash as an integer. </br>
+
+* 
+
+
+
+# outputs 19
 
 **Thoughts:** 
 
@@ -157,6 +173,59 @@ print arr.reverse!</br>
 
 **Link to work:** 
 
+
+## Day 7: 24/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 8: 25/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 9: 26/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 10: 27/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
+## Day 11: 28/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:**
+
+
+## Day 13: 28/03/19
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:**
 
 
 -template-
