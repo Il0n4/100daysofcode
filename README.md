@@ -29,16 +29,16 @@
 ### Control Strucures
 * **boolean values** - in Ruby nur true oder false (2 Möglichkeiten) Only true and false are Booleans. nil is not a Boolean. 0 is not a Boolean. The string "Hello" is not a Boolean. However, in a context where a Boolean is expected, Ruby evaluates them as Boolean (truthy and falsey).
 * Vergleich zweier Variablen mit **==, ungleich  !=**
-  There is also the **.eql? method**, which results in true only if both arguments have the same type and equal values.
-  For example:
-  puts 3 == 3.0 # true 
-  but
-  puts 3.eql?(3.0) # false
+  There is also the **.eql? method**, which results in true only if both arguments have the same type and equal values.</br>
+  For example:</br>
+  puts 3 == 3.0 # true </br>
+  but</br>
+  puts 3.eql?(3.0) # false</br>
 * größer, kleiner Prinzip funktioniert auch mit strings - Vergleich basiert auf alphabetischer Reihenfolge
-* **if** statement: The end keyword is required to indicate the end of the if; es können mehrere Konditionen miteinander verknüpft werden. 
-  if a<7 
-      puts "Yes" 
-  end 
+* **if** statement: The end keyword is required to indicate the end of the if; es können mehrere Konditionen miteinander verknüpft werden. </br>
+  if a<7 </br>
+      puts "Yes" </br>
+  end </br>
   Conditions können ineinander verschachtelt sein - if im if wird erst dann beachtet, wenn die erste Ebene erfüllt wird. Jedes      if benötigt in eigenes end.
   else ist Teil des if Statements und somit eingebettet und braucht daher kein eigenes end
 * **elsif - nur wenn diese Aussage nicht stimmt, dann**
@@ -66,22 +66,22 @@ The **until** loop is the opposite of a while loop: it will run while its condit
 **Today's Progress:** 
 ### Control Structures 
 * **Ranges** sind Sequenzen von Zahlen. 
-**to_a** method is used to convert a range to an array. 
-c = ("a".."d").to_a
-puts c # [a, b, c, d]
+**to_a** method is used to convert a range to an array. </br>
+c = ("a".."d").to_a</br>
+puts c # [a, b, c, d]</br>
 ''..'' and ''...'' sind die Kommandos. **..** inkludiert alle Werte, **...** schließt den angeführten Maximalwert aus. - funktioniert nicht rückwärts
-* **for Loops** füllen eine leere Variable einzeln mit einer Sequenz von Werten
-for i in (1..10)
-  puts i
-end
+* **for Loops** füllen eine leere Variable einzeln mit einer Sequenz von Werten </br>
+for i in (1..10)</br>
+  puts i</br>
+end</br>
 The for loop is a useful statement when you need to loop over a specific set of values, for example, a range.
 The for loop consists of an empty variable and a range. At each iteration of the loop, the empty variable will be assigned the corresponding element of the range.
 **The for loop executes a block of code once for each element in the range.**
-* **break** statement can be used to stop a loop. 
-for i in 1..5
-  break if i > 3
-  puts i
-end
+* **break** statement can be used to stop a loop. </br>
+for i in 1..5</br>
+  break if i > 3</br>
+  puts i</br>
+end</br>
 * **next** kann mit **for Loop** kombiniert werden und lässt einen Wert überspringen. **redo** lässt eine Iteration des Loops wiederholen, **retry** lässt Loop nochmals von Anfang starten.
 * **loop do** It allows code to execute until a break condition is achieved.If we do not include a break condition, the loop will run forever.
 
@@ -89,14 +89,14 @@ end
 * **arrays** ist eine Liste nummerierter Items. items = ["Apple", "Orange", "Banana"] - Das array heißt **items** und beinhaltet 3 String. puts items [0] #gibt Apple aus. items Werte können manuell überschrieben werden. A negative index is assumed relative to the end of the array. For example, an index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.
 Arrays können **alle Formen von Elementen** enthalten.
 * zum array hinzufügen: mit **<<** wird ein Element an die letzte Stelle hinzugefügt, **push** fügt Element am Ende des arrays hinzu **arr.push(8)**, **insert** fügt ein Element an einer beliebigen Stelle ein - **arr.insert(2, 8)** #an zweiter Stelle das Element "8"
-* Entfernen von Werten mit **pop** - entfernt das letzte Element der Reihe
-**arr = [1, 2, 3]
+* Entfernen von Werten mit **pop** - entfernt das letzte Element der Reihe </br>
+**arr = [1, 2, 3]</br>
 arr.pop**
-print arr # [1, 2]
-**delete_at** ermöglicht es eine spezifische Position auszuwählen die entfernt wird - 
-**arr = [2, 4, 6, 8]
-arr.delete_at(2)**
-print arr # [2, 4, 8]
+print arr # [1, 2]</br>
+**delete_at** ermöglicht es eine spezifische Position auszuwählen die entfernt wird - </br>
+**arr = [2, 4, 6, 8]</br>
+arr.delete_at(2)**</br>
+print arr # [2, 4, 8]</br>
 
 **Thoughts:** 
 Arrays und Logiken machen Spaß. Tolle Gedankenpuzzles. Spannend wird dann der Weg, weg von den isolierten konkreten Rätsellösung hin zur Anwendung.
@@ -107,6 +107,33 @@ https://code.sololearn.com/coLyd90VY8g6/#rb
 ## Day 4: 21/03/19
 
 **Today's Progress:** 
+* **arrays kann man miteinander kombinieren/addieren/subtrahieren** aber auch multiplizieren. </br>
+a = [1, 2, 3]</br>
+b = [4, 5]</br>
+
+res = a + b</br>
+print res # [1, 2, 3, 4, 5]</br>
+
+* **boolsche Funktionen** mit **&** werden nur Elemente agerufen, die beide arrays vereinen, mit **|** nur jene Elemente, die nur in je einem array vorkommen.
+* **reverse method** kehrt die Reihenfolge der Elemente um. Entweder so angewandt </br>
+arr = [5, 3, 8]</br>
+res = arr.reverse</br>
+print res # [8, 3, 5]</br>
+
+oder: </br>
+arr = [1, 2, 3]</br>
+print arr.reverse!</br>
+(ohne dem Rufzeichen, wird die umgekehrte Abfolge nicht gespeichert und wird nur ein Mal abgerufen)
+
+**array.length or array.size** returns the number of elements in array.</br>
+**array.sort** returns a new array with the elements sorted</br>
+**array.uniq** returns a new array with duplicate values removed from array.</br>
+**array.uniq!** removes duplicates in place.</br>
+**array.freeze** safeguards the array, preventing it from being modified.</br>
+**array.include?(obj)** returns true if obj is present in array, false otherwise.</br>
+**array.min** returns the element with the minimum value.</br>
+**array.max** returns the element with the maximum value.</br>
+* **hashes**
 
 **Thoughts:** 
 
